@@ -9,7 +9,7 @@ class calc:
 
 		"""replace x with * and ÷ with /"""
 		self.expression = self.e.get() 
-		self.newtext=self.expression.replace('/','/') 
+		self.newtext=self.expression.replace('+','/') 
 		self.newtext=self.newtext.replace('x','*') 
 
 
