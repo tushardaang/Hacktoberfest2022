@@ -26,7 +26,7 @@ int main()
     int ch, n;
     cout << "size: ";
     cin >> n;
-    cout << "ENTER ARRY: ";
+    cout << "ENTER ARRQY: ";
     for (int i = 0; i < n; i++)
     {
         cin >> ch;
